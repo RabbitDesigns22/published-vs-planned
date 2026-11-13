@@ -16,7 +16,7 @@ With the skill, the agent builds the plan list first (one row per item per netwo
 
 | # | Item | Planned | Scheduled | Live | Gap and cause | Fix |
 |---|---|---|---|---|---|---|
-| 2 | Page A, IG, reel | Tue 10:00 | ok | missing | cross-post to IG dropped, no error | republish, then check the profile again |
+| 2 | Page A, IG, reel | Tue 10:00 | ok | missing | cross-post to IG dropped, no error | republish after the owner's yes, then check the profile again |
 | 1, 3-6 | ... | ... | ok | ok | none | none |
 
 "Checked Tue 21:40 (UTC-6): 5 of 6 live, 1 gap."
@@ -63,7 +63,7 @@ These come from one real workflow: a small agency run with 15+ Claude Code sessi
 | [sort-me-out](https://github.com/RabbitDesigns22/sort-me-out) | one ordered list of what is urgent, waiting and forgotten |
 | [in-the-loop](https://github.com/RabbitDesigns22/in-the-loop) | a live board so parallel sessions know what the others changed |
 | [study-first](https://github.com/RabbitDesigns22/study-first) | reads everything in full and answers point by point, no invented details |
-| [session-watchdog](https://github.com/RabbitDesigns22/session-watchdog) | wakes the sessions that got stuck mid-task, leaves the rest alone |
+| [session-watchdog](https://github.com/RabbitDesigns22/session-watchdog) | finds the sessions that got stuck mid-task and wakes them on your yes |
 | [skill-harvest](https://github.com/RabbitDesigns22/skill-harvest) | reads your sessions and finds the skills you are missing |
 | [small-budget-ads](https://github.com/RabbitDesigns22/small-budget-ads) | Meta Ads rules for 1-5 USD a day ad sets |
 | [whatsapp-closer](https://github.com/RabbitDesigns22/whatsapp-closer) | evidence-ranked rules for a WhatsApp sales assistant that closes |
