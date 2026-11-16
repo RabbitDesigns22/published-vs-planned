@@ -30,7 +30,7 @@ With the skill, the agent builds the plan list first (one row per item per netwo
 With the [skills CLI](https://skills.sh):
 
 ```bash
-npx skills add RabbitDesigns22/published-vs-planned
+npx skills@1.8.1 add https://github.com/RabbitDesigns22/published-vs-planned/tree/0ae4cd8d776567f9a7d7036e8edf15301cd70572
 ```
 
 Or manually: copy `skills/published-vs-planned/` into `~/.claude/skills/` for all your projects, or into `.claude/skills/` for one project.
@@ -46,7 +46,7 @@ It works for Meta Business Suite, TikTok, LinkedIn, Buffer and any scheduler, an
 
 **Programado no es publicado.** Las herramientas de programación aceptan el post y fallan después: token vencido, página equivocada, reel rechazado o Instagram que se cae sin aviso. El agente lee "éxito" y dice "todo publicado". Con esta skill arma la lista de lo planeado, la compara con la lista del programador y, cuando pasa la hora, abre la página **pública**, Facebook e Instagram por separado. Solo dice "publicado" de lo que vio en vivo y entrega una tabla con lo que falta primero.
 
-Instalar: `npx skills add RabbitDesigns22/published-vs-planned`
+Instalar: `npx skills@1.8.1 add https://github.com/RabbitDesigns22/published-vs-planned/tree/0ae4cd8d776567f9a7d7036e8edf15301cd70572`
 
 ## More skills from the same setup
 
